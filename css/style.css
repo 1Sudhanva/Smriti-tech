@@ -1011,7 +1011,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright p {
-  color: #ddd;
+  color: #000;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -1021,7 +1021,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright a {
-  color: #ddd;
+  color: #000;
 }
 
 .copyright a:hover {
