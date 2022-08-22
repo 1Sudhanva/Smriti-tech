@@ -560,6 +560,7 @@
                     placeholder="Email"
                     type="type"
                     name="Email"
+                    id="Email"
                   />
                 </div>
                 <div class="col-md-12">
@@ -576,6 +577,7 @@
                     placeholder="Message"
                     type="type"
                     Message="Name"
+                    id="Message"
                   />
                 </div>
                 <div class="col-md-12">
@@ -602,8 +604,8 @@
               <img class="logo1" src="images/new_logo.png" alt="#" />
               <ul class="about_us">
                 <li>
-                  dolor sit amet, consectetur<br />
-                  magna aliqua. Ut enim ad <br />minim veniam, <br />
+                  dolor sit amet, consectetur
+                  magna aliqua. Ut enim ad minim veniam,
                   quisdotempor incididunt r
                 </li>
               </ul>
@@ -678,10 +680,10 @@
       Host : "smtp.yourisp.com",
       Username : "username",
       Password : "password",
-      To : '',
+      To : 'smrititechmail@gmail.com',
       From : document.getElementById("Email").value,
-      Subject : "Smriti Tech",
-      Body : "Thankyou for subscribing for our newsletter"
+      Subject : "Service Request (From website)",
+      Body : document.getElementById("Message").value,
       }).then(
       message => alert(message)
       );
