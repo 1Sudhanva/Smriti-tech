@@ -863,7 +863,7 @@ button {
 /** footer **/
 
 .footer {
-  background: #f4c430;
+  background: url(../images/banner1.png);
   padding-top: 115px;
   text-align: center;
 }
