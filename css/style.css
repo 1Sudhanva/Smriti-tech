@@ -290,7 +290,7 @@ button {
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff;
+  color: #1100ff;
   line-height: 40px;
 }
 
@@ -445,6 +445,14 @@ button {
   padding: 0;
 }
 
+.titlepage-a h2 {
+  font-size: 40px;
+  color: #1100ff;
+  /* text-shadow: 2px 2px 2px #000; */
+  line-height: 55px;
+  padding: 0;
+}
+
 .d_flex {
   display: flex;
   align-items: center;
@@ -533,13 +541,16 @@ button {
 }
 
 .services {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: url(../images/services-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 90px 0 0px 0;
 }
 
 .services .services_box {
   text-align: center;
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   padding: 80px 0;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -580,10 +591,10 @@ button {
 
 #serv_hover:hover.services_box {
   cursor: pointer;
-  box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.2);
-  background-color: #fff;
-  border-top: #f4c430 solid 6px;
-  transition: ease-in all 0.2s;
+  /* box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.2);
+  background-color: #fff; */
+  border: #f4c430 solid 3px;
+  transition: ease-in all 0.1s;
 }
 
 #serv_hover:hover.services_box h3 {
@@ -622,7 +633,8 @@ button {
 
 .ideas {
   padding: 90px 0;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background: url(../images/banner4.png);
   position: relative;
 }
 
@@ -700,7 +712,10 @@ button {
 
 .testimonial {
   padding: 0px 0px 90px 0px;
-  background: #fff;
+  /* background: #fff; */
+  background: url(../images/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .testimonial .titlepage {
@@ -761,7 +776,7 @@ button {
 /** contact section **/
 
 .contact {
-  background: url(../images/contact.png);
+  /* background: url(../images/contact.png); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 0px 0 90px 0;
@@ -775,7 +790,7 @@ button {
   left: 0;
   right: 0;
   content: "";
-  background: url(../images/con_cross.png);
+  background: url(../images/banner2.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -827,9 +842,9 @@ button {
 .main_form .send_btn {
   font-size: 22px;
   transition: ease-in all 0.5s;
-  /* background-color: #f4c430; */
+  background-color: #fff;
   text-transform: uppercase;
-  color: #f4c430;
+  color: #1100ff;
   padding: 12px 0px;
   max-width: 195px;
   width: 100%;
@@ -840,9 +855,9 @@ button {
 }
 
 .main_form .send_btn:hover {
-  background-color: #1100ff;
+  background-color: #f4c430;
   transition: ease-in all 0.5s;
-  color: #fff;
+  color: #1100ff;
 }
 
 #request *::placeholder {
@@ -863,7 +878,8 @@ button {
 /** footer **/
 
 .footer {
-  background: url(../images/banner1.png);
+  /* background: url(../images/banner3.png); */
+  background-color: #000;
   padding-top: 115px;
   text-align: center;
 }
@@ -1024,7 +1040,8 @@ ul.link_menu li a:hover {
 }
 
 .copyright a:hover {
-  color: #1100ff;
+  color: #f4c430;
+  text-shadow: 2px 2px 2px #000;
 }
 
 /** end footer **/
