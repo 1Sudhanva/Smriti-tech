@@ -453,6 +453,14 @@ button {
   padding: 0;
 }
 
+.titlepage-con h2 {
+  font-size: 40px;
+  color: #f55;
+  text-shadow: 2px 2px 2px #000;
+  line-height: 55px;
+  padding: 0;
+}
+
 .d_flex {
   display: flex;
   align-items: center;
@@ -484,8 +492,6 @@ button {
 }
 
 /** team section **/
-
-/** end team section **/
 
 .team {
   background-color: #fff;
@@ -533,6 +539,8 @@ button {
 .team_img figure img {
   width: 100%;
 }
+
+/** end team section **/
 
 /** services section **/
 
@@ -861,16 +869,8 @@ button {
 }
 
 #request *::placeholder {
-  color: #dfdfdf;
-  opacity: 1;
-}
-
-.map figure {
-  margin: 0;
-}
-
-.map figure img {
-  width: 100%;
+  color: #fff;
+  opacity: 10;
 }
 
 /** end contact section **/
@@ -955,7 +955,7 @@ ul.link_menu li {
 }
 
 ul.link_menu li a {
-  color: #fff;
+  color: #ff0;
   font-size: 17px;
   line-height: 28px;
   padding-bottom: 10px;
@@ -1026,7 +1026,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright p {
-  color: #000;
+  color: #ff0;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -1036,11 +1036,11 @@ ul.link_menu li a:hover {
 }
 
 .copyright a {
-  color: #000;
+  color: #1100ff;
 }
 
 .copyright a:hover {
-  color: #f4c430;
+  color: #ff0;
   text-shadow: 2px 2px 2px #000;
 }
 
