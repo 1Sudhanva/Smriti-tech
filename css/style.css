@@ -721,7 +721,12 @@ button {
 .testimonial {
   padding: 0px 0px 90px 0px;
   /* background: #fff; */
-  background: url(../images/banner3.png);
+  background: rgb(255, 0, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 194, 1) 0%,
+    rgba(158, 0, 255, 1) 100%
+  );
   background-repeat: no-repeat;
   background-size: cover;
 }
