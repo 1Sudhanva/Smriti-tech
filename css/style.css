@@ -36,11 +36,20 @@ html {
 }
 
 body {
-  color: #666666;
+  color: #ffffff;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   line-height: 1.80857;
   font-weight: normal;
+}
+
+body {
+  background: rgb(0, 61, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 61, 255, 1) 0%,
+    rgba(0, 255, 231, 1) 100%
+  );
 }
 
 a {
@@ -296,7 +305,6 @@ button {
 /** banner section **/
 
 .banner_main {
-  background: url(../images/banner0.jpg);
   background-repeat: no-repeat;
   min-height: 900px;
   background-size: 100% 100%;
@@ -312,8 +320,6 @@ button {
   bottom: -63px;
   right: 17%;
   content: "";
-  /* background: url(../images/button.png); */
-  background-repeat: no-repeat;
   width: 159px;
   z-index: 9999;
   height: 159px;
@@ -348,10 +354,10 @@ button {
 }
 
 .text_img figure h3 {
-  color: #f4c430;
+  color: #fff;
   font-size: 30px;
   top: -18px;
-  background: #1100ff;
+  background: #f4c430;
   z-index: 999999;
   width: 70px;
   height: 70px;
@@ -438,7 +444,7 @@ button {
 
 .titlepage h2 {
   font-size: 40px;
-  color: #f4c430;
+  color: #ffffff;
   text-shadow: 2px 2px 2px #000;
   line-height: 55px;
   padding: 0;
@@ -446,15 +452,14 @@ button {
 
 .titlepage-a h2 {
   font-size: 40px;
-  color: #1100ff;
-  /* text-shadow: 2px 2px 2px #000; */
+  color: #ffffff;
   line-height: 55px;
   padding: 0;
 }
 
 .titlepage-con h2 {
   font-size: 40px;
-  color: #f55;
+  color: #f4c430;
   text-shadow: 2px 2px 2px #000;
   line-height: 55px;
   padding: 0;
@@ -464,10 +469,6 @@ button {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.blu {
-  color: #0808ff;
 }
 
 .read_more {
@@ -548,16 +549,11 @@ button {
 }
 
 .services {
-  /* background-color: #fff; */
-  background: url(../images/services-bg.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
   padding: 90px 0 0px 0;
 }
 
 .services .services_box {
   text-align: center;
-  /* background-color: #f6f6f6; */
   padding: 80px 0;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -577,7 +573,7 @@ button {
 }
 
 .services .services_box h3 {
-  color: #1100ff;
+  color: #f4c430;
   font-size: 25px;
   line-height: 20px;
   font-weight: 500;
@@ -598,14 +594,13 @@ button {
 
 #serv_hover:hover.services_box {
   cursor: pointer;
-  /* box-shadow: 0px 0px 30px rgba(0, 0, 255, 0.2);
-  background-color: #fff; */
   border: #f4c430 solid 3px;
   transition: ease-in all 0.1s;
 }
 
 #serv_hover:hover.services_box h3 {
-  color: #1100ff;
+  color: #f4c430;
+  text-shadow: 2px 2px 2px #000;
   transition: ease-in all 0.5s;
 }
 
@@ -640,8 +635,6 @@ button {
 
 .ideas {
   padding: 90px 0;
-  /* background-color: #fff; */
-  background: url(../images/banner4.png);
   position: relative;
 }
 
@@ -661,7 +654,7 @@ button {
 }
 
 .ideas .titlepage p {
-  color: #2a2b2b;
+  color: #ffffff;
   display: block;
   font-size: 17px;
   font-weight: 400;
@@ -788,12 +781,8 @@ button {
 /** contact section **/
 
 .contact {
-  /* background: url(../images/contact.png); */
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   padding: 0px 0 90px 0;
   position: relative;
-  background: inherit;
 }
 
 .contact::before {
@@ -802,8 +791,6 @@ button {
   left: 0;
   right: 0;
   content: "";
-  background: url(../images/banner2.png);
-  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   background-size: 100% 100%;
@@ -882,9 +869,8 @@ button {
 /** footer **/
 
 .footer {
-  /* background: url(../images/banner3.png); */
   background-color: #000;
-  padding-top: 115px;
+  padding-top: 2%;
   text-align: center;
 }
 
@@ -901,8 +887,6 @@ button {
 
 .logo1 {
   float: left;
-  margin-top: -11px;
-  margin-bottom: 9px;
 }
 
 ul.social_icon {
@@ -940,9 +924,7 @@ ul.social_icon li a:hover {
   line-height: 24px;
   text-align: left;
   color: #fff;
-  margin-bottom: 15px;
   border-bottom: #1100ff solid 3px;
-  padding-bottom: 3px;
   display: table;
 }
 
@@ -1025,7 +1007,7 @@ ul.link_menu li a:hover {
 }
 
 .copyright {
-  margin-top: 80px;
+  margin-top: 5%;
   padding-bottom: 20px;
 }
 
@@ -1143,6 +1125,15 @@ ul.link_menu li a:hover {
 
 .glass {
   background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass_slide {
+  background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
