@@ -686,11 +686,11 @@
     <script>
       function sendemail() {
         Email.send({
-          Host: "smtp.yourisp.com",
+          Host: "smtp.elasticemail.com",
           Username: "smriti.tech.mail@gmail.com",
           Password: "A4533611ABABEA992B106B76C1E302329AEA",
           To: "smriti.tech.mail@gmail.com",
-          From: document.getElementById("Email").value,
+          From: "sudhanva.asai@gmail.com",
           Subject: "Service Request (From website)",
           Body: document.getElementById("Message").value,
         }).then((message) => alert(message));
