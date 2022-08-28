@@ -567,7 +567,7 @@
         </div>
         <div class="row">
           <div class="col-md-5">
-            <form id="request" class="main_form" onsubmit="sendmail()">
+            <form id="request" class="main_form" onsubmit="sendemail()">
               <div class="row">
                 <div class="col-md-12">
                   <input
@@ -600,7 +600,7 @@
                     id="Message" />
                 </div>
                 <div class="col-md-12">
-                  <button class="send_btn glass">Send</button>
+                  <button type="submit" class="send_btn glass">Send</button>
                 </div>
               </div>
             </form>
@@ -692,7 +692,7 @@
           To: "smriti.tech.mail@gmail.com",
           From: "sudhanva.asai@gmail.com",
           Subject: "Service Request (From website)",
-          Body: document.getElementById("Message").value,
+          Body: "Body Message",
         }).then((message) => alert(message));
       }
     </script>
