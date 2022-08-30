@@ -277,4 +277,34 @@
   .about_page .team_img {
     margin-top: 30px;
   }
+  #banner1 .carousel-indicators {
+    left: 6px;
+    bottom: 40px;
+    display: none;
+    margin-left: 0;
+    right: inherit;
+    top: 36%;
+  }
+
+  #banner1 .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #f6f6f6;
+    margin: 7px 0;
+  }
+
+  #banner1 .carousel-indicators li.active {
+    background: #ffca56;
+    border: #fff solid 6px;
+    width: 25px;
+    height: 25px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #banner1 a.carousel-control-next,
+  #banner1 a.carousel-control-prev {
+    display: none;
+  }
 }
