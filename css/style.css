@@ -802,7 +802,7 @@ button {
   background-image: url(../images/big-tree.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
   opacity: 0.5;
   position: absolute;
   bottom: 0;
