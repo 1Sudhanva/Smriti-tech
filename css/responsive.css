@@ -129,9 +129,6 @@
   .ideas::before {
     right: 4px;
   }
-  .contact::before {
-    background: inherit;
-  }
   .sub_btn {
     max-width: 140px;
   }
@@ -251,9 +248,6 @@
   }
   .ideas::before {
     right: 4px;
-  }
-  .contact::before {
-    background: inherit;
   }
   .main_form {
     margin: 0px;
