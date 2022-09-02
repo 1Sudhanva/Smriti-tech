@@ -75,7 +75,7 @@
     display: none;
   }
   .about_us li {
-    float: left;
+    float: center;
   }
   .map {
     padding-right: 74px;
@@ -99,6 +99,7 @@
     min-height: 1065px;
   }
   .text_img {
+    display: none;
     margin-right: 0px;
     margin-top: 30px;
   }
@@ -106,6 +107,16 @@
     top: 19px;
     left: -3px;
   }
+
+  .text-bg {
+    margin-top: 40%;
+    width: 370px;
+    height: 450px;
+  }
+  .text-bg h1 {
+    font-size: 47px;
+  }
+
   .text-bg p {
     padding-bottom: 30px;
   }
@@ -146,7 +157,7 @@
     padding-top: 5px !important;
   }
   .navigation .navbar-collapse {
-    text-align: center;
+    position: relative;
     padding: 20px;
     margin-top: 64px;
     position: absolute;
@@ -178,7 +189,14 @@
 
   #banner1 a.carousel-control-next,
   #banner1 a.carousel-control-prev {
-    display: none;
+    display: block;
+    top: 50%;
+  }
+  .services .services_box h3 {
+    font-size: 20px;
+  }
+  .navi {
+    display: block;
   }
 }
 
@@ -192,11 +210,15 @@
     float: left;
   }
   .text_img {
+    display: none;
     margin-right: 0px;
     margin-top: 30px;
   }
   .text-bg {
+    margin-top: 40%;
     padding-right: 0;
+    width: 370px;
+    height: 450px;
   }
   .text_img figure h3 {
     top: 19px;
@@ -240,7 +262,7 @@
     margin-top: 10px;
   }
   .about_us li {
-    float: left;
+    float: center;
   }
   ul.social_icon {
     margin-bottom: 10px;
@@ -291,6 +313,15 @@
 
   #banner1 a.carousel-control-next,
   #banner1 a.carousel-control-prev {
-    display: none;
+    display: block;
+    top: 50%;
+    height: 10%;
+    border-radius: 50px;
+  }
+  .services .services_box h3 {
+    font-size: 17px;
+  }
+  .navi {
+    display: block;
   }
 }

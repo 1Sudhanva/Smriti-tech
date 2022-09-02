@@ -301,7 +301,7 @@ button {
 
 .header {
   width: 100%;
-  padding: 30px 30px;
+  padding: 1%;
   background: transparent;
   position: fixed;
   z-index: 2000;
@@ -318,29 +318,27 @@ button {
 /** banner section **/
 
 .banner_main {
-  background-repeat: no-repeat;
-  height: 900px;
+  width: 100%;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  position: relative;
 }
 
-.banner_man::before {
+.banner_main::before {
   position: absolute;
-  bottom: -63px;
-  right: 17%;
   content: "";
-  width: 159px;
-  z-index: 9999;
-  height: 159px;
   cursor: pointer;
+  background-image: url(images/banner0.jpg);
 }
 
 .text-bg {
+  margin-top: 20%;
+  width: 100%;
+  height: 250%;
   text-align: left;
-  padding-right: 71px;
+  position: relative;
 }
 
 .text-bg h1 {
@@ -358,7 +356,10 @@ button {
 }
 
 .text_img {
+  display: block;
   margin-right: -83px;
+  height: 200%;
+  width: 100%;
 }
 
 .text_img figure {
@@ -384,7 +385,7 @@ button {
 }
 
 .text_img figure img {
-  width: 70%;
+  width: fit-content;
 }
 
 .carousel-caption {
@@ -398,7 +399,7 @@ button {
 #banner1 .carousel-indicators {
   left: 6px;
   bottom: 40px;
-  display: block;
+  display: none;
   margin-left: 0;
   right: inherit;
   top: 36%;
@@ -423,7 +424,12 @@ button {
 
 #banner1 a.carousel-control-next,
 #banner1 a.carousel-control-prev {
-  display: none;
+  display: block;
+  top: 50%;
+}
+
+#banner1 a.carousel-control-prev {
+  left: -5%;
 }
 
 .text-bg a {
@@ -451,16 +457,14 @@ button {
 
 .titlepage {
   text-align: center;
-  padding-bottom: 60px;
+  margin: 1%;
 }
 
 .titlepage h2 {
   font-size: 40px;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000;
-  border-left: 5px solid #f4c430;
   line-height: 55px;
-  padding: 1%;
 }
 
 .titlepage-mv h2 {
@@ -500,18 +504,41 @@ button {
 
 .services .titlepage {
   text-align: left;
+  border-left: 5px solid #f4c430;
+}
+
+.services .titlepage p {
+  color: #000;
+  font-size: 17px;
 }
 
 .services {
-  padding: 90px 0 0px 0;
+  padding: 5%;
+  position: relative;
+}
+.services::before {
+  background-image: url(/images/shapes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
 }
 
 .services .services_box {
   text-align: center;
   padding: 80px 0;
   margin-bottom: 30px;
-  border-radius: 50px;
-  transition: ease-in all 0.5s;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  transition: ease-in all 0.2s;
 }
 
 .iot:hover,
@@ -562,10 +589,10 @@ button {
 }
 
 .services .services_box h3 {
-  color: #f4c430;
+  color: #110;
   font-size: 25px;
-  line-height: 20px;
-  font-weight: 500;
+  line-height: 120%;
+  font-weight: 700;
   margin-top: 40px !important;
   transition: ease-in all 0.3s;
   margin: auto;
@@ -589,8 +616,7 @@ button {
 
 #serv_hover:hover.services_box h3 {
   color: #f4c430;
-  text-shadow: 2px 2px 2px #000;
-  transition: ease-in all 0.5s;
+  transition: ease-in all 0.1s;
 }
 
 #serv_hover:hover .right_irro i {
@@ -629,20 +655,22 @@ button {
 .ideas::before {
   position: absolute;
   bottom: 0;
-  right: 38px;
   content: "";
-  background: url(../images/iadius_cross.png);
+  background: url(../images/blue-tex.jpg);
   background-repeat: no-repeat;
-  width: 420px;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
   height: 100%;
 }
 
 .ideas .titlepage {
   text-align: left;
+  border-left: 5px solid #f4c430;
 }
 
 .ideas .titlepage p {
-  color: #ffffff;
+  color: #000;
   display: block;
   font-size: 17px;
   font-weight: 400;
@@ -765,11 +793,16 @@ button {
 /** contact section **/
 
 .contact {
-  padding: 0px 0 90px 0;
+  padding: 0px 0 50px 0;
   position: relative;
 }
 
 .contact::before {
+  background-image: url(/images/big-tree.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.5;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -777,18 +810,35 @@ button {
   content: "";
   width: 100%;
   height: 100%;
-  background-size: 100% 100%;
 }
 
 .contact .titlepage {
   text-align: left;
-  padding-bottom: 107px;
+  border-left: 5px solid #f4c430;
 }
 
 .contact .titlepage h2 {
   color: #ffffff;
-  border-left: 5px solid #f4c430;
-  padding-left: 1%;
+  padding: 0%;
+}
+
+.contact h3 {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  border-bottom: #f4c430 solid 5px;
+  display: block;
+}
+
+.contact p {
+  text-align: center;
+  color: #000;
+}
+.contact a {
+  text-align: center;
+  color: #000;
 }
 
 .main_form .contactus {
@@ -797,7 +847,7 @@ button {
   width: 100%;
   height: 47px;
   background: transparent;
-  color: #dfdfdf;
+  color: #000;
   font-size: 18px;
   font-weight: normal;
   border-right: inherit;
@@ -809,9 +859,9 @@ button {
   border: #f4c430 solid 1px;
   margin-bottom: 25px;
   width: 100%;
-  height: 47px;
+  height: 67px;
   background: transparent;
-  color: #dfdfdf;
+  color: #000000;
   font-size: 18px;
   font-weight: normal;
   border-right: inherit;
@@ -841,7 +891,7 @@ button {
 }
 
 *::placeholder {
-  color: #fff;
+  color: rgb(0, 0, 0);
   opacity: 10;
 }
 
@@ -894,8 +944,8 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-  background-color: #fff;
-  color: #f4c430;
+  color: #1100ff;
+  background-color: #f4c430;
 }
 
 .footer h3 {
@@ -906,10 +956,6 @@ ul.social_icon li a:hover {
   color: #fff;
   border-bottom: #1100ff solid 3px;
   display: block;
-}
-
-.footer h3:hover {
-  color: #f4c430;
 }
 
 ul.link_menu li {
@@ -953,6 +999,9 @@ ul.link_menu li a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(2, 2, 255);
   font-size: 19px;
+}
+.navi {
+  display: none;
 }
 
 /** end footer **/
@@ -1028,7 +1077,7 @@ ul.link_menu li a:hover {
 }
 
 .glass_collapse {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -1044,6 +1093,27 @@ ul.link_menu li a:hover {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.glass-base {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.glass-con {
+  background: rgba(255, 255, 255, 0.121);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
 
 .glass_slide {
   background: rgba(255, 255, 255, 0.8);
@@ -1052,4 +1122,39 @@ ul.link_menu li a:hover {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.primary-nav {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+
+.shrink {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 30px !important;
+}
+
+.shrink a {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 999;
+  border: none;
+  outline: none;
+  color: #f4c430;
+  cursor: pointer;
+  padding: 1%;
+  border-radius: 50px;
+  font-size: 28px;
+}
+#myBtn:hover {
+  color: #1100ff;
 }
