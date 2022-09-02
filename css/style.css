@@ -517,7 +517,7 @@ button {
   position: relative;
 }
 .services::before {
-  background-image: url(/images/shapes.png);
+  background-image: url(images/shapes.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -797,7 +797,7 @@ button {
 }
 
 .contact::before {
-  background-image: url(/images/big-tree.png);
+  background-image: url(images/big-tree.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
