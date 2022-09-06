@@ -17,3 +17,12 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+const navLinks = document.querySelectorAll(".nav-item");
+const menuToggle = document.getElementById("navbarsExample04");
+const bsCollapse = new bootstrap.Collapse(menuToggle);
+navLinks.forEach((l) => {
+  l.addEventListener("click", () => {
+    bsCollapse.toggle();
+  });
+});

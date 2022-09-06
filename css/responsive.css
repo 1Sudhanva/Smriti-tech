@@ -34,6 +34,9 @@
     font-size: 37px;
     line-height: 47px;
   }
+  .titlepage-mv h2 {
+    font-size: 32px;
+  }
   .ideas::before {
     right: 5px;
   }
@@ -57,7 +60,7 @@
     height: 50px;
   }
   .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 0px 18px;
+    padding: 0px 9px;
   }
   .text-bg h1 {
     font-size: 43px;
@@ -70,6 +73,9 @@
   .titlepage h2 {
     font-size: 28px;
     line-height: 37px;
+  }
+  .titlepage-mv h2 {
+    font-size: 23px;
   }
   .team .titlepage h3 {
     font-size: 20px;
@@ -268,6 +274,9 @@
   .titlepage h2 {
     font-size: 32px;
     line-height: 40px;
+  }
+  .titlepage-mv h2 {
+    font-size: 28px;
   }
   .team .titlepage h3 {
     font-size: 18px;
