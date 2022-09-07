@@ -65,7 +65,6 @@
   .text-bg h1 {
     font-size: 43px;
     line-height: 53px;
-    padding-bottom: 10px;
   }
   .text_img {
     margin-right: 0px;
@@ -147,10 +146,6 @@
   }
   .text-bg h1 {
     font-size: 47px;
-  }
-
-  .text-bg p {
-    padding-bottom: 30px;
   }
   .ideas_box p {
     margin-bottom: 30px;
@@ -257,16 +252,12 @@
     top: 19px;
     left: 5px;
   }
-  .text-bg p {
-    padding-bottom: 30px;
-  }
   .ideas_box p {
     margin-bottom: 30px;
   }
   .text-bg h1 {
     font-size: 47px;
     line-height: 60px;
-    padding-bottom: 10px;
   }
   .carousel-inner {
     margin-right: 0;
