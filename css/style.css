@@ -384,11 +384,6 @@ button {
 .text_img figure img {
   width: 100%;
 }
-
-.carousel-caption {
-  /* position: inherit; */
-}
-
 .carousel-inner {
   margin-right: 142px;
 }
