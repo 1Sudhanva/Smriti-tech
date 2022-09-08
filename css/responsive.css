@@ -243,10 +243,8 @@
     margin-top: 30px;
   }
   .text-bg {
-    margin-top: 40%;
     padding-right: 0;
-    width: 370px;
-    height: 450px;
+    width: 100%;
   }
   .text_img figure h3 {
     top: 19px;
@@ -256,8 +254,8 @@
     margin-bottom: 30px;
   }
   .text-bg h1 {
-    font-size: 47px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 90%;
   }
   .carousel-inner {
     margin-right: 0;

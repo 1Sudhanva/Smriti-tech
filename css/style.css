@@ -341,6 +341,7 @@ button {
 }
 
 .text-bg h1 {
+  text-shadow: 2px 2px 2px #000;
   color: #fff;
   font-size: 63px;
   line-height: 73px;
@@ -360,7 +361,7 @@ button {
 }
 
 .text_img figure {
-  margin: 0;
+  margin-top: 10;
 }
 
 .text_img figure h3 {
@@ -382,8 +383,15 @@ button {
 }
 
 .text_img figure img {
+  height: 100%;
   width: 100%;
 }
+
+.carousel-caption {
+  /* vertical-align: middle; */
+  position: inherit;
+}
+
 .carousel-inner {
   margin-right: 142px;
 }
