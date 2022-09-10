@@ -101,12 +101,12 @@ h1 {
 
 h2 {
   font-size: 22px;
-  font-family: "Cinzel Decorative", cursive;
+  font-family: "Baloo Chettan", cursive;
 }
 
 h3 {
   font-size: 18px;
-  font-family: "Cinzel Decorative", cursive;
+  font-family: "Baloo Chettan", cursive;
 }
 
 h4 {
@@ -318,19 +318,12 @@ button {
 /** banner section **/
 
 .banner_main {
+  background-color: rgb(223, 223, 255);
   width: 100%;
-  height: 500px;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-}
-
-.banner_main::before {
-  position: absolute;
-  content: "";
-  cursor: pointer;
-  background-image: url(../images/banner0.jpg);
 }
 
 .text-bg {
@@ -341,13 +334,14 @@ button {
 }
 
 .text-bg h1 {
-  text-shadow: 2px 2px 2px #000;
-  color: #fff;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
+  color: rgb(47, 47, 47);
   font-size: 63px;
   line-height: 73px;
 }
 
 .text-bg p {
+  color: #000;
   line-height: 28px;
   font-weight: 500;
   display: block;
@@ -365,11 +359,10 @@ button {
 }
 
 .text_img figure h3 {
-  color: #fff;
+  color: #f4c430;
   font-size: 30px;
   top: -18px;
-  background: #f4c430;
-  z-index: 999999;
+  z-index: 99;
   width: 70px;
   height: 70px;
   border-radius: 50px;
@@ -424,12 +417,17 @@ button {
 
 #banner1 a.carousel-control-next,
 #banner1 a.carousel-control-prev {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #000;
   display: block;
+  height: fit-content;
+  width: 50px;
   top: 50%;
-}
-
-#banner1 a.carousel-control-prev {
-  left: -5%;
 }
 
 .text-bg a {
@@ -461,6 +459,7 @@ button {
 }
 
 .titlepage h2 {
+  text-align: center;
   font-size: 40px;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000;
