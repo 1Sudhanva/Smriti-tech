@@ -4,6 +4,9 @@
   .banner_main {
     height: 700px;
   }
+  .ideas {
+    height: 700px;
+  }
   .logo img {
     height: 50px;
   }
@@ -13,6 +16,9 @@
 
 @media (min-width: 1200px) and (max-width: 1342px) {
   .banner_main {
+    height: 700px;
+  }
+  .ideas {
     height: 700px;
   }
   .logo img {
@@ -31,6 +37,9 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner_main {
+    height: 700px;
+  }
+  .ideas {
     height: 700px;
   }
   .logo img {
@@ -62,6 +71,9 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .banner_main {
+    height: 700px;
+  }
+  .ideas {
     height: 700px;
   }
   .logo a {
@@ -139,6 +151,9 @@
     height: 50px;
   }
   .banner_main {
+    height: 700px;
+  }
+  .ideas {
     height: 700px;
   }
   .text_img {
@@ -238,6 +253,9 @@
 
 @media (max-width: 575px) {
   .banner_main {
+    height: 910px;
+  }
+  .ideas {
     height: 910px;
   }
   .header {
