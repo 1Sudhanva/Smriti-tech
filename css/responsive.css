@@ -5,7 +5,7 @@
     height: 700px;
   }
   .ideas {
-    height: 700px;
+    height: 550px;
   }
   .logo img {
     height: 50px;
@@ -19,7 +19,7 @@
     height: 700px;
   }
   .ideas {
-    height: 700px;
+    height: 550px;
   }
   .logo img {
     height: 50px;
@@ -246,9 +246,6 @@
   .services .services_box h3 {
     font-size: 20px;
   }
-  .navi {
-    display: block;
-  }
 }
 
 @media (max-width: 575px) {
@@ -348,6 +345,9 @@
     margin-right: 2px;
     border: inherit;
   }
+  .navbar-toggler {
+    margin-top: -13%;
+  }
   .testimonial_box {
     padding: 0px 19px 40px 20px;
   }
@@ -375,8 +375,5 @@
   }
   .services .services_box h3 {
     font-size: 17px;
-  }
-  .navi {
-    display: block;
   }
 }

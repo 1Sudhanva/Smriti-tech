@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title class="title">SMRITI Tech</title>
+    <title class="title">Smriti Tech</title>
     <!-- Icon -->
     <link rel="icon" href="images/big-tree.png" />
     <!-- bootstrap css -->
@@ -44,7 +44,7 @@
       <div class="header glass_nav">
         <div class="container">
           <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-9 logo_section">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 logo_section">
               <div class="full">
                 <div class="center-desk">
                   <div class="logo">
@@ -56,9 +56,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-3">
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-3">
               <nav
-                class="autohide navigation navbar navbar-expand-md navbar-dark">
+                class="navigation navbar navbar-expand-md navbar-dark">
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -70,25 +70,31 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div
-                  class="collapse navbar-collapse glass_collapse p-1 text-center"
+                  class="collapse navbar-collapse p-1 text-center"
                   id="navbarsExample04">
                   <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                       <a class="nav-link" href="index.html">Home</a>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cases</a>
+                        <a class="dropdown-item" href="#">Technologies</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Blogs</a>
+                      </div>
+                    </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <!-- <li class="nav-item">
-                      <a class="nav-link" href="images/load.mp4">Resources</a>
-                    </li> -->
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact Us</a>
-                    </li>
+                    
                   </ul>
+                  <button class="btn btn-warning">
+                    <a class="" href="#">Get in Touch</a>
+                  </button>
                 </div>
               </nav>
             </div>
@@ -326,18 +332,22 @@
         <div class="mivision p-1">
           <div class="container">
             <div class="row">
-              <div class="col-md-12 p-1">
-                <div class="titlepage-mv text-center">
-                  <h2>Mission</h2>
+              <div class="col-md-6 p-1">
+                <div class="titlepage-mv text-center glass p-1">
+                  <h2 class="p-0">Mission</h2>
+                  <img src="/images/mission.png" alt="" srcset="" />
+                  <hr />
                   <p>
                     Offering digitised solutions to enterprises such as
                     automation focussed on Software-as-a-Service (SaaS) company.
+                  </div>
                   </p>
-                </div>
               </div>
-              <div class="col-md-12 p-1">
-                <div class="titlepage-mv text-center">
-                  <h2>Vision</h2>
+              <div class="col-md-6 p-1">
+                <div class="titlepage-mv text-center glass p-1">
+                  <h2 class="p-0">Vision</h2>
+                  <img src="/images/vision.png" alt="" srcset="" />
+                  <hr />
                   <p>
                     To bring Creative innovative problem solving hearts to meet
                     the Societal need on technological platform.
@@ -368,9 +378,6 @@
                 Internet of <br />
                 Things
               </h3>
-              <a class="right_irro" href="#">
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
             </div>
           </div>
           <div class="col-md-4 col-6">
@@ -379,17 +386,11 @@
                 Embedded <br />
                 System
               </h3>
-              <a class="right_irro" href="#"
-                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
-              ></a>
             </div>
           </div>
           <div class="col-md-4 col-6">
             <div id="serv_hover" class="services_box rpa glass-card">
-              <h3>Robotic Process Automation</h3>
-              <a class="right_irro" href="#"
-                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
-              ></a>
+              <h3>Robotic Process <br> Automation</h3>
             </div>
           </div>
           <div class="col-md-4 col-6">
@@ -398,9 +399,6 @@
                 Machine Learning & <br />
                 Data analytics
               </h3>
-              <a class="right_irro" href="#"
-                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
-              ></a>
             </div>
           </div>
           <div class="col-md-4 col-6">
@@ -409,9 +407,6 @@
                 Web <br />
                 Development
               </h3>
-              <a class="right_irro" href="#"
-                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
-              ></a>
             </div>
           </div>
           <div class="col-md-4 col-6">
@@ -420,9 +415,6 @@
                 Computer <br />
                 Vision
               </h3>
-              <a class="right_irro" href="#"
-                ><i class="fa fa-long-arrow-right" aria-hidden="true"></i
-              ></a>
             </div>
           </div>
         </div>
@@ -489,51 +481,12 @@
         <div class="row">
           <div class="col-md-12">
             <div class="titlepage glass-con">
-              <h2 class="text-center p-2">CONTACT US</h2>
+              <h2 class="text-center p-2">...</h2>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 offset-1">
-            <form class="main_form" onsubmit="sendemail()">
-              <div class="row">
-                <div class="col-md-12">
-                  <input
-                    class="contactus"
-                    placeholder="Name"
-                    type="type"
-                    name="Name" />
-                </div>
-                <div class="col-md-12">
-                  <input
-                    class="contactus"
-                    placeholder="Email"
-                    type="type"
-                    name="Email"
-                    id="Email" />
-                </div>
-                <div class="col-md-12">
-                  <input
-                    class="contactus"
-                    placeholder="Phone Number"
-                    type="type"
-                    name="Phone Number" />
-                </div>
-                <div class="col-md-12">
-                  <input
-                    class="contactus1"
-                    placeholder="Message"
-                    type="type"
-                    Message="Name"
-                    id="Message" />
-                </div>
-                <div class="col-md-12">
-                  <button type="submit" class="send_btn glass">Send</button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-md-4 glass-base m-4">
+          <div class="col-md-12 glass-base m-4">
             <div>
               <h3>Based in</h3>
               <p>
@@ -575,66 +528,43 @@
               </ul>
             </div>
           </div>
+          <div class="col-md-10 offset-md-1">
+            <p>
+              © 2022 All Rights Reserved. Designed and Developed by
+              <a href="https://flowcv.me/sudhanva">
+                Web Designer From India</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </div>
     <!-- end contact -->
     <!--  footer -->
-    <footer>
+    <!-- <footer>
       <div class="footer">
         <div class="container">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div class="">
-                <!-- <img class="logo1" src="images/new_logo.png" alt="#" /> -->
-                <!-- <h2>Smriti Tech</h2> -->
+                <img class="logo1" src="images/tree.png" alt="#" />
+                <h2>Smriti Tech</h2>
               </div>
-            </div>
-            <div class="col-md-6 navi">
-              <h3>Navigations</h3>
-              <ul class="link_menu">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#top">Page top</a></li>
-              </ul>
             </div>
           </div>
         </div>
         <div class="copyright">
           <div class="container">
             <div class="row">
-              <div class="col-md-10 offset-md-1">
-                <p>
-                  © 2022 All Rights Reserved. Designed and Developed by
-                  <a href="https://flowcv.me/sudhanva">
-                    Web Designer From India</a
-                  >
-                </p>
-              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <button onclick="topFunction()" class="glass" id="myBtn" title="Go to top">
       <i class="fa fa-chevron-up"></i>
     </button>
-    <!-- end footer -->
-    <!-- email triger script -->
-    <script>
-      function sendemail() {
-        Email.send({
-          Host: "smtp.elasticemail.com",
-          Username: "smriti.tech.mail@gmail.com",
-          Password: "A4533611ABABEA992B106B76C1E302329AEA",
-          To: "smriti.tech.mail@gmail.com",
-          From: "sudhanva.asai@gmail.com",
-          Subject: "Service Request (From website)",
-          Body: "Body Message",
-        }).then((message) => alert(message));
-      }
-    </script>
+    <!-- end footer -->   
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
