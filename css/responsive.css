@@ -4,11 +4,15 @@
   .banner_main {
     height: 700px;
   }
-  .ideas {
+  .about {
     height: 550px;
   }
   .logo img {
     height: 50px;
+  }
+  .titlepage-mv img {
+    margin-top: -70px;
+    height: 90px;
   }
 }
 
@@ -18,7 +22,7 @@
   .banner_main {
     height: 700px;
   }
-  .ideas {
+  .about {
     height: 550px;
   }
   .logo img {
@@ -27,11 +31,12 @@
   .text_img {
     margin-right: 0px;
   }
-  .ideas::before {
+  .about::before {
     right: 5px;
   }
-  .map {
-    padding-right: 74px;
+  .titlepage-mv img {
+    margin-top: -70px;
+    height: 90px;
   }
 }
 
@@ -39,7 +44,7 @@
   .banner_main {
     height: 700px;
   }
-  .ideas {
+  .about {
     height: 700px;
   }
   .logo img {
@@ -52,10 +57,14 @@
     font-size: 37px;
     line-height: 47px;
   }
+  .titlepage-mv img {
+    margin-top: -55px;
+    height: 70px;
+  }
   .titlepage-mv h2 {
     font-size: 32px;
   }
-  .ideas::before {
+  .about::before {
     right: 5px;
   }
   .bottom_form h3 {
@@ -73,11 +82,11 @@
   .banner_main {
     height: 700px;
   }
-  .ideas {
+  .about {
     height: 700px;
   }
   .logo a {
-    font-size: 30px;
+    font-size: 25px;
     vertical-align: middle;
   }
   .logo img {
@@ -97,8 +106,15 @@
     font-size: 28px;
     line-height: 37px;
   }
+  .titlepage-mv {
+    height: 220px;
+  }
   .titlepage-mv h2 {
     font-size: 23px;
+  }
+  .titlepage-mv img {
+    margin-top: -40px;
+    height: 60px;
   }
   .team .titlepage h3 {
     font-size: 20px;
@@ -110,10 +126,10 @@
   .services .services_box h3 {
     font-size: 20px;
   }
-  .ideas::before {
+  .about::before {
     right: 5px;
   }
-  .ideas_box p {
+  .about_box p {
     font-size: 16px;
   }
   ul.social_icon {
@@ -153,7 +169,7 @@
   .banner_main {
     height: 700px;
   }
-  .ideas {
+  .about {
     height: 700px;
   }
   .text_img {
@@ -174,13 +190,17 @@
   .text-bg h1 {
     font-size: 47px;
   }
-  .ideas_box p {
+  .about_box p {
     margin-bottom: 30px;
+  }
+  .titlepage-mv img {
+    margin-top: -65px;
+    height: 70px;
   }
   .margin_bottom {
     margin-bottom: 30px;
   }
-  .ideas::before {
+  .about::before {
     right: 4px;
   }
   .sub_btn {
@@ -252,14 +272,14 @@
   .banner_main {
     height: 910px;
   }
-  .ideas {
+  .about {
     height: 910px;
   }
   .header {
-    padding: 15px 0px 15px 0px;
+    padding: 1%;
   }
   .logo a {
-    font-size: 30px;
+    font-size: 25px;
     vertical-align: middle;
   }
   .logo img {
@@ -280,9 +300,10 @@
     top: 19px;
     left: 5px;
   }
-  .ideas_box p {
+  .about_box p {
     margin-bottom: 30px;
   }
+
   .text-bg h1 {
     font-size: 30px;
     line-height: 90%;
@@ -297,6 +318,10 @@
   .titlepage-mv h2 {
     font-size: 28px;
   }
+  .titlepage-mv img {
+    margin-top: -50px;
+    height: 70px;
+  }
   .team .titlepage h3 {
     font-size: 18px;
   }
@@ -304,7 +329,7 @@
     font-size: 28px;
     padding-left: 10px;
   }
-  .ideas::before {
+  .about::before {
     right: 4px;
   }
   .main_form {
@@ -344,9 +369,6 @@
     float: right;
     margin-right: 2px;
     border: inherit;
-  }
-  .navbar-toggler {
-    margin-top: -13%;
   }
   .testimonial_box {
     padding: 0px 19px 40px 20px;

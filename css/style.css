@@ -280,7 +280,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-  color: #1100ff;
+  color: #f4c430;
   font-size: 17px;
 }
 
@@ -288,13 +288,14 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-  color: #1100ff;
+  color: #f4c430;
   font-size: 17px;
 }
 
 .show {
-  background-color: rgb(255, 255, 255);
-  padding: 2%;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }
 
 .navbar-expand-md .navbar-nav {
@@ -316,8 +317,11 @@ button {
 .logo a {
   font-family: "Cinzel Decorative", cursive;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   color: #000;
+}
+.logo_section {
+  padding: 0%;
 }
 
 /** banner section **/
@@ -340,16 +344,17 @@ button {
 
 .text-bg h1 {
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
-  color: rgb(47, 47, 47);
+  color: #000;
   font-size: 40px;
   font-weight: 400px;
-  line-height: 73px;
+  line-height: 100%;
 }
 
 .text-bg p {
   color: rgb(47, 47, 47);
   line-height: 28px;
   font-weight: 500;
+  /* text-align: justify; */
   display: block;
   font-size: 24px;
 }
@@ -481,14 +486,14 @@ button {
   font-size: 40px;
   color: #f4c430;
   text-shadow: 2px 2px 2px #000;
-  line-height: 55px;
+  text-align: center;
 }
 .titlepage-mv p {
   color: #000;
+  text-align: justify;
 }
 
 .titlepage-mv img {
-  height: 90px;
   float: right;
   padding: 2%;
 }
@@ -502,8 +507,8 @@ button {
 .read_more {
   font-size: 17px;
   background-color: transparent;
-  border: #1100ff solid 2px;
-  color: #1100ff !important;
+  border: #f4c430 solid 2px;
+  color: #f4c430 !important;
   padding: 13px 0px;
   width: 100%;
   max-width: 190px;
@@ -666,13 +671,13 @@ button {
 
 /** end services section **/
 
-/** New Ideas  section **/
+/** New about  section **/
 
-.ideas {
+.about {
   position: relative;
 }
 
-.ideas::before {
+.about::before {
   position: absolute;
   bottom: 0;
   content: "";
@@ -684,12 +689,12 @@ button {
   height: 700px;
 }
 
-.ideas .titlepage {
+.about .titlepage {
   text-align: left;
   border-left: 5px solid #f4c430;
 }
 
-.ideas .titlepage p {
+.about .titlepage p {
   color: #000;
   display: block;
   font-size: 17px;
@@ -706,11 +711,11 @@ button {
   position: relative;
 }
 
-.ideas_box {
+.about_box {
   text-align: center;
 }
 
-.ideas_box h3 {
+.about_box h3 {
   color: #fff;
   font-size: 40px;
   font-weight: bold;
@@ -723,10 +728,10 @@ button {
   align-items: center;
   justify-content: center;
   padding: 0;
-  border: #1100ff solid 11px;
+  border: #f4c430 solid 11px;
 }
 
-.ideas_box p {
+.about_box p {
   color: #2a2b2b;
   font-size: 20px;
   font-weight: bold;
@@ -738,7 +743,7 @@ button {
   margin-bottom: 30px;
 }
 
-/** end New Ideas  section **/
+/** end New about  section **/
 
 /** testimonial section **/
 
@@ -848,7 +853,7 @@ button {
   text-align: center;
   color: #000;
   text-shadow: 2px 2px 1px rgb(255, 255, 255);
-  border-bottom: #f4c430 solid 5px;
+  border-bottom: #f4c430 solid 3px;
   display: block;
 }
 
@@ -894,20 +899,19 @@ button {
   transition: ease-in all 0.5s;
   background-color: #fff;
   text-transform: uppercase;
-  color: #1100ff;
+  color: #f4c430;
   padding: 12px 0px;
   max-width: 195px;
   width: 100%;
   display: block;
   margin-top: 30px !important;
   font-weight: 500;
-  /* border: #1100ff solid 1px; */
 }
 
 .main_form .send_btn:hover {
   background-color: #f4c430;
   transition: ease-in all 0.5s;
-  color: #1100ff;
+  color: #f4c430;
 }
 
 *::placeholder {
@@ -960,12 +964,12 @@ ul.social_icon li a {
   font-size: 25px;
   border-radius: 30px;
   margin: 0 3px;
-  color: #1100ff;
+  color: #f4c430;
 }
 
 ul.social_icon li a:hover {
-  color: #1100ff;
-  background-color: #f4c430;
+  color: #f4c430;
+  background-color: #1c1c1c;
 }
 
 .footer h3 {
@@ -974,7 +978,7 @@ ul.social_icon li a:hover {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  border-bottom: #1100ff solid 3px;
+  border-bottom: #f4c430 solid 3px;
   display: block;
 }
 
@@ -993,7 +997,7 @@ ul.link_menu li a {
 }
 
 ul.link_menu li a:hover {
-  color: #1100ff;
+  color: #f4c430;
 }
 
 .copyright {
@@ -1019,6 +1023,8 @@ ul.link_menu li a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(2, 2, 255);
   font-size: 19px;
+}
+.glass-copy {
 }
 
 /** end footer **/
@@ -1089,7 +1095,7 @@ ul.link_menu li a:hover {
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(132, 132, 132, 0.5);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
@@ -1125,5 +1131,5 @@ ul.link_menu li a:hover {
   font-size: 28px;
 }
 #myBtn:hover {
-  color: #1100ff;
+  color: #f4c430;
 }
