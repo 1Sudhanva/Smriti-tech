@@ -267,8 +267,6 @@ button {
 
 .navigation.navbar {
   float: right;
-  padding-top: 14px !important;
-  padding: 0;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
@@ -337,7 +335,6 @@ button {
 
 .text-bg {
   width: 100%;
-  height: 100%;
   text-align: left;
   position: relative;
 }
@@ -354,11 +351,45 @@ button {
   color: rgb(47, 47, 47);
   line-height: 28px;
   font-weight: 500;
-  /* text-align: justify; */
   display: block;
   font-size: 24px;
 }
-
+.bg1 {
+  background-image: url(/images/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+}
+.bg2 {
+  background-image: url(/images/bg2.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position: right;
+}
+.bg3 {
+  background-image: url(/images/bg3.jpeg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+}
+.bg4 {
+  background-image: url(/images/bg4.jpeg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+}
+.bg5 {
+  background-image: url(/images/bg5.jpeg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+}
+.bg6 {
+  background-image: url(/images/bg6.jpeg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: right;
+}
 .text_img {
   display: block;
   margin-right: -83px;
@@ -526,6 +557,10 @@ button {
 
 /** services section **/
 
+.services {
+  padding-top: 7%;
+  position: relative;
+}
 .services .titlepage {
   text-align: left;
   border-left: 5px solid #f4c430;
@@ -536,10 +571,6 @@ button {
   font-size: 17px;
 }
 
-.services {
-  padding: 5%;
-  position: relative;
-}
 .services::before {
   background-image: url(../images/shapes.png);
   background-repeat: no-repeat;
@@ -674,6 +705,7 @@ button {
 /** New about  section **/
 
 .about {
+  padding-top: 10%;
   position: relative;
 }
 
@@ -1023,8 +1055,6 @@ ul.link_menu li a:hover {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 2px rgb(2, 2, 255);
   font-size: 19px;
-}
-.glass-copy {
 }
 
 /** end footer **/
