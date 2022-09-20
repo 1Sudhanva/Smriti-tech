@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- local css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/card.css" />
     <!-- Portable-->
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- fevicon -->
@@ -49,7 +50,7 @@
                 <div class="center-desk">
                   <div class="logo">
                     <a href="index.html">
-                      <img src="images/tree1.png" alt="#" />
+                      <img src="images/tree.png" alt="#" />
                       SMRiTi TECH
                     </a>
                   </div>
@@ -89,12 +90,11 @@
                       <div
                         class="dropdown-menu"
                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#services"
+                        <a class="dropdown-item" href="html/contact.html"
                           >Our Services</a
                         >
                         <a class="dropdown-item" href="#">Cases</a>
                         <a class="dropdown-item" href="#">Technologies</a>
-                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Blogs</a>
                       </div>
                     </li>
@@ -103,8 +103,27 @@
                     </li>
                   </ul>
                   <button class="btn btn-warning">
-                    <a class="" href="#">Get in Touch</a>
+                    <a class="" href="html/contact.html">Get in Touch</a>
                   </button>
+                  <div class="socials">
+                    <ul class="social_icon">
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-facebook" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-youtube" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i class="fa fa-instagram" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </nav>
             </div>
@@ -112,19 +131,12 @@
         </div>
       </div>
     </header>
+
     <!-- end header inner -->
     <!-- end header -->
     <!-- banner -->
     <section class="banner_main">
       <div id="banner1" class="carousel slide" data-ride="carousel">
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#banner1" data-slide-to="0" class="active"></li>
-          <li data-target="#banner1" data-slide-to="1"></li>
-          <li data-target="#banner1" data-slide-to="2"></li>
-          <li data-target="#banner1" data-slide-to="3"></li>
-          <li data-target="#banner1" data-slide-to="4"></li>
-          <li data-target="#banner1" data-slide-to="5"></li>
-        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
@@ -375,178 +387,135 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box iot glass-card">
-              <h3>
-                Internet of <br />
-                Things
-              </h3>
+        <main class="page-content">
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">Internet of Things</h2>
+              <p class="copy">
+                Unleashing the manifold possibilities of Smart IOT Services
+              </p>
+              <button class="btns">Explore IoT</button>
             </div>
           </div>
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box es glass-card">
-              <h3>
-                Embedded <br />
-                System
-              </h3>
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">Embebbed System</h2>
+              <p class="copy">
+                Device firmware and software updates with Cloud integration
+              </p>
+              <button class="btns">Explore ES</button>
             </div>
           </div>
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box rpa glass-card">
-              <h3>
-                Robotic Process <br />
-                Automation
-              </h3>
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">Robotic Process Automation</h2>
+              <p class="copy">
+                Multitude of application software that automates rules based
+                tasks
+              </p>
+              <button class="btns">Explore RPA</button>
             </div>
           </div>
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box ml glass-card">
-              <h3>
-                Artificial Intelligence <br />
-                Machine Learning
-              </h3>
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">AI / ML</h2>
+              <p class="copy">
+                Pinnacle of Consciousness, free will and Creativity experienced
+                through AI / ML
+              </p>
+              <button class="btns">Explore AI</button>
             </div>
           </div>
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box wd glass-card">
-              <h3>
-                Web <br />
-                Development
-              </h3>
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">Computer Vision</h2>
+              <p class="copy">
+                Automatic Navigation of Robots in digital data advocacy and
+                accountability
+              </p>
+              <button class="btns">Explore CV</button>
             </div>
           </div>
-          <div class="col-md-4 col-6">
-            <div id="serv_hover" class="services_box cv glass-card">
-              <h3>
-                Computer <br />
-                Vision
-              </h3>
+          <div class="cards">
+            <div class="content">
+              <h2 class="title">Web Development</h2>
+              <p class="copy">
+                Strategizing facile needs in evolving requirements of the
+                digital era
+              </p>
+              <button class="btns">Explore Web</button>
             </div>
           </div>
-        </div>
+        </main>
       </div>
     </div>
     <!-- end services -->
-    <!-- testimonial
-      <div class="testimonial">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="titlepage">
-                <h2>Testimonial</h2>
-                <p class="text-light">
-                  Reviews of the customers and members feedback
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="test_box glass">
-                <p class="text-light">
-                  psum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                </p>
-                <div class="test_icon">
-                  <i><img src="images/cos.png" alt="#" /></i>
-                  <h4>
-                    Ramesh Kumar R <br />
-                    <span class="yellow">Engineer</span>
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="test_box glass">
-                <p class="text-light">
-                  psum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                </p>
-                <div class="test_icon">
-                  <i><img src="images/cos.png" alt="#" /></i>
-                  <h4>
-                    Ganesh Prasad <br />
-                    <span class="yellow">Engineer</span>
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-    <!-- end testimonial -->
     <!--  contact -->
     <div class="contact" id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 glass-base m-4">
-            <div>
-              <h3>Based in</h3>
-              <p>
-                SK13 New Town Bhadravathi, Shivamogga, Karnataka, India - 577301
-              </p>
-            </div>
-            <div class="m-2">
-              <h3>Contact</h3>
-              <p>
-                Phone No : <br />
-                <a href="tel:+918971581121">8971581121 ,</a>
-                <a href="tel:+916239198282">6239198282</a>
-              </p>
-              <p>
-                Email :
-                <a href="mailto:smriti.tech.mail@gmail.com"
-                  >smriti.tech.mail@gmail.com</a
-                >
-              </p>
-            </div>
-            <div class="m-5">
-              <h3>Socials</h3>
-              <ul class="social_icon">
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-facebook" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-youtube" aria-hidden="true"></i
-                  ></a>
-                </li>
-                <li>
-                  <a href="#"
-                    ><i class="fa fa-instagram" aria-hidden="true"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-10 offset-md-1 glass-copy">
-            <p>
-              © 2022 All Rights Reserved. Designed and Developed by
-              <a href="https://flowcv.me/sudhanva"> Web Designer From India</a>
-            </p>
-          </div>
+          <div class="titlepage"><h2>visuals</h2></div>
         </div>
       </div>
     </div>
     <!-- end contact -->
     <!--  footer -->
-    <!-- <footer>
+    <footer>
       <div class="footer">
         <div class="container">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <div class="">
-                <img class="logo1" src="images/tree.png" alt="#" />
-                <h2>Smriti Tech</h2>
+              <div class="logo">
+                <a href="index.html">
+                  <img src="images/tree1.png" alt="#" />
+                  SMRiTi TECH
+                </a>
+                <div class="socials">
+                  <ul class="social_icon">
+                    <li>
+                      <a href="#" class="fb"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" class="yt"
+                        ><i class="fa fa-youtube" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#" class="insta"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://api.whatsapp.com/send?phone=8971581121&text=Hello!%20"
+                        class="wta"
+                        ><i class="fa fa-whatsapp" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <p>
+                  SK13, New Town, Bhadravathi, Shivamogga, Karnataka, India -
+                  577301
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="cont">
+                <h3>Contact</h3>
+                <p>
+                  Phone No :
+                  <a href="tel:+918971581121">8971581121</a>,
+                  <a href="tel:+916239198282">6239198282</a>
+                </p>
+                <p>
+                  Email :
+                  <a href="mailto:smriti.tech.mail@gmail.com"
+                    >smriti.tech.mail@gmail.com</a
+                  >
+                </p>
               </div>
             </div>
           </div>
@@ -554,12 +523,57 @@
         <div class="copyright">
           <div class="container">
             <div class="row">
+              <div class="col-md-10 offset-md-1 glass-copy">
+                <p>
+                  © 2022 All Rights Reserved. Designed and Developed by
+                  <a href="https://flowcv.me/sudhanva">
+                    Web Designer From India</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </footer> -->
+    </footer>
     <!-- end footer -->
+    <script>
+      var url =
+        "https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?77096";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = url;
+      var options = {
+        enabled: true,
+        chatButtonSetting: {
+          backgroundColor: "#4dc247",
+          ctaText: "",
+          borderRadius: "25",
+          marginLeft: "0",
+          marginBottom: "80",
+          marginRight: "26",
+          position: "right",
+        },
+        brandSetting: {
+          brandName: "Smriti Tech",
+          brandSubTitle: "Typically replies within a day",
+          brandImg: "images/tree1.png",
+          welcomeText: "Hi there!\nHow can I help you?",
+          messageText: "Hello There!",
+          backgroundColor: "#0a5f54",
+          ctaText: "Start a Chat",
+          borderRadius: "25",
+          autoShow: false,
+          phoneNumber: "8971581121",
+        },
+      };
+      s.onload = function () {
+        CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName("script")[0];
+      x.parentNode.insertBefore(s, x);
+    </script>
     <button onclick="topFunction()" class="glass" id="myBtn" title="Go to top">
       <i class="fa fa-chevron-up"></i>
     </button>
@@ -574,6 +588,7 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="https://use.fontawesome.com/32da77db27.js"></script>
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>
