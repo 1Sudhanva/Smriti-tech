@@ -76,6 +76,12 @@
   .map {
     padding-right: 90px;
   }
+  .int-disp {
+    display: block;
+  }
+  .visual {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -155,6 +161,12 @@
   }
   .blog .blog_box figure img {
     height: 192px;
+  }
+  .int-disp {
+    display: block;
+  }
+  .visual {
+    display: none;
   }
 }
 
@@ -265,6 +277,12 @@
   }
   .services .services_box h3 {
     font-size: 20px;
+  }
+  .int-disp {
+    display: block;
+  }
+  .visual {
+    display: none;
   }
 }
 
@@ -393,5 +411,19 @@
   }
   .services .services_box h3 {
     font-size: 17px;
+  }
+  .int-disp {
+    display: block;
+  }
+  .visual {
+    display: none;
+  }
+  #feedback-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
   }
 }

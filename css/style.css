@@ -803,14 +803,15 @@ button {
 
 /** end testimonial section **/
 
-/** contact section **/
+/** visual section **/
 
-.contact {
-  padding: 0px 0 50px 0;
+.visual {
+  padding: 0;
+  height: 710px;
   position: relative;
 }
 
-.contact::before {
+.visual::before {
   background-image: url(../images/big-tree.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -825,17 +826,21 @@ button {
   height: 100%;
 }
 
-.contact .titlepage {
+.visual .titlepage {
   text-align: left;
   border-left: 5px solid #f4c430;
 }
 
-.contact .titlepage h2 {
+.visual .titlepage h2 {
   color: #000000;
   padding: 0%;
 }
 
-.contact h3 {
+.visual .col-6 {
+  height: 710px;
+}
+
+.visual h3 {
   font-weight: 600;
   font-size: 25px;
   text-align: center;
@@ -845,13 +850,16 @@ button {
   display: block;
 }
 
-.contact p {
+.visual p {
   text-align: center;
   color: #000;
 }
-.contact a {
+.visual a {
   text-align: center;
   color: #000;
+}
+.int-disp {
+  display: none;
 }
 
 .main_form .contactus {
@@ -907,13 +915,14 @@ button {
   opacity: 10;
 }
 
-/** end contact section **/
+/** end section **/
 
 /** footer **/
 
 .footer {
   background-color: rgb(6, 6, 11);
   padding-top: 2%;
+  margin-bottom: 50%;
   text-align: center;
 }
 
@@ -960,57 +969,12 @@ button {
 }
 
 ul.social_icon {
-  padding-top: 14px;
   width: 100%;
-  float: center;
   text-align: center;
 }
 
 ul.social_icon li {
   display: inline-block;
-}
-
-.socials {
-  float: right;
-}
-
-.socials ul.social_icon li a {
-  background: rgb(255, 255, 255);
-  width: 40px;
-  height: 40px;
-  display: contents;
-  align-items: initial;
-  justify-content: initial;
-  font-size: 25px;
-  border-radius: 30px;
-  margin: 0 3px;
-  color: #000000;
-}
-
-.socials ul.social_icon li a:hover {
-  color: #fff;
-}
-
-.socials ul.social_icon li a.fb:hover {
-  background-color: rgb(66, 103, 178);
-}
-.socials ul.social_icon li a.yt:hover {
-  background-color: rgb(255, 0, 0);
-}
-
-.socials ul.social_icon li a.insta:hover {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-}
-
-.socials ul.social_icon li a.wta:hover {
-  background-color: rgb(55, 241, 52);
 }
 
 .wa-chat-box-poweredby {
@@ -1174,16 +1138,40 @@ ul.link_menu li a:hover {
   font-size: 15px;
 }
 
-.social {
+.social ul.social_icon li a {
   background: rgb(255, 255, 255);
   width: 40px;
   height: 40px;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 25px;
   border-radius: 30px;
-  margin-top: 55%;
   color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social ul.social_icon li a:hover {
+  color: #fff;
+}
+
+.social ul.social_icon li a.fb:hover {
+  background-color: rgb(66, 103, 178);
+}
+.social ul.social_icon li a.yt:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.social ul.social_icon li a.insta:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social ul.social_icon li a.wta:hover {
+  background-color: rgb(55, 241, 52);
 }
