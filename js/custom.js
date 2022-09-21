@@ -10,7 +10,7 @@ $(function () {
 
   setTimeout(function () {
     $(".loader_bg").fadeToggle();
-  }, 3000);
+  }, 5000);
 
   /* Tooltip
 	-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
