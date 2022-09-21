@@ -7,12 +7,12 @@
   width: fit-content;
 }
 
-svg {
+.visual svg {
   width: fit-content;
   padding: 9%;
   padding-left: 15%;
 }
-path {
+.visual path {
   stroke: rgb(0, 0, 0);
   stroke-dasharray: 10, 1;
   fill: none;

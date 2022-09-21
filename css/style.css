@@ -443,8 +443,8 @@ button {
 .text-bg a {
   font-size: 17px;
   background-color: transparent;
-  border: #fff solid 2px;
-  color: #fff;
+  border: #000 solid 2px;
+  color: #000;
   font-weight: 500;
   padding: 14px 0px;
   width: 100%;
@@ -922,7 +922,6 @@ button {
 .footer {
   background-color: rgb(6, 6, 11);
   padding-top: 2%;
-  margin-bottom: 50%;
   text-align: center;
 }
 
