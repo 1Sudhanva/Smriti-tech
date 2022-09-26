@@ -31,6 +31,7 @@
 
 * {
   box-sizing: border-box !important;
+  cursor: url("../images/tree.svg") 15 15, auto;
 }
 
 html {
@@ -223,7 +224,7 @@ button {
   border: 0;
   margin: 0;
   padding: 0;
-  cursor: pointer;
+  cursor: url("../images/color-tree.svg") 15 15, pointer;
 }
 
 .full {
@@ -364,25 +365,31 @@ button {
   width: 100%;
 }
 
-.text_img figure {
-  margin-top: 10;
-}
-
 .text_img figure img {
-  height: 300px;
-  width: 100%;
+  height: 100%;
+  width: 600px;
 }
 .text_img figure h3 {
-  bottom: 0;
+  top: 0;
+  left: 0%;
+  font-size: 20px;
+  color: rgba(255, 162, 0, 0.667);
+  position: absolute;
+  transition: all 200ms ease;
+}
+
+.text_img figure h3:hover {
+  color: rgba(0, 0, 0, 0.37);
+  transition: all 200ms ease-in-out;
+}
+
+.text_img figure i {
+  top: 10%;
   left: 0;
   font-size: 50px;
-  color: rgba(255, 255, 255, 0.667);
+  color: rgba(255, 162, 0, 0.667);
   position: absolute;
   transition: all 500ms ease;
-}
-.text_img figure h3:hover {
-  font-size: 60px;
-  color: rgba(0, 0, 0, 0.37);
 }
 
 .carousel-caption {
@@ -392,32 +399,6 @@ button {
 
 .carousel-inner {
   margin-right: 142px;
-}
-
-#banner1 .carousel-indicators {
-  left: 6px;
-  bottom: 40px;
-  display: none;
-  margin-left: 0;
-  right: inherit;
-  top: 36%;
-}
-
-#banner1 .carousel-indicators li {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  background: #f6f6f6;
-  margin: 7px 0;
-}
-
-#banner1 .carousel-indicators li.active {
-  background: #ffca56;
-  border: #fff solid 6px;
-  width: 25px;
-  height: 25px;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 #banner1 a.carousel-control-next,
@@ -446,14 +427,14 @@ button {
   max-width: 215px;
   text-align: center;
   display: inline-block;
-  transition: ease-in all 0.5s;
+  transition: ease-in all 0.2s;
   margin-right: 10px;
 }
 
 .text-bg a:hover {
   background-color: #ffca56;
-  color: #fff;
-  transition: ease-in all 0.5s;
+  color: #000;
+  transition: ease-in all 0.2s;
 }
 
 /** end banner section **/
@@ -472,7 +453,7 @@ button {
 }
 
 .titlepage-mv {
-  height: 180px;
+  height: 200px;
 }
 
 .titlepage-mv h2 {
@@ -616,7 +597,7 @@ button {
 }
 
 #serv_hover:hover.services_box {
-  cursor: pointer;
+  cursor: url("../images/color-tree.svg") 15 15, pointer;
   border: #f4c430 solid 3px;
   transition: ease-in all 0.1s;
 }
@@ -658,6 +639,7 @@ button {
 .about {
   padding-top: 10%;
   position: relative;
+  height: 730px;
 }
 
 .about::before {
@@ -669,7 +651,6 @@ button {
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  height: 700px;
 }
 
 .about .titlepage {
@@ -727,76 +708,6 @@ button {
 }
 
 /** end New about  section **/
-
-/** testimonial section **/
-
-.testimonial {
-  padding: 0px 0px 90px 0px;
-  /* background: #fff; */
-  background: rgb(255, 0, 194);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 194, 1) 0%,
-    rgba(158, 0, 255, 1) 100%
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.testimonial .titlepage {
-  text-align: left;
-}
-
-.testimonial .titlepage h2 {
-  color: #f4c430;
-}
-
-.testimonial .titlepage p {
-  font-size: 17px;
-  line-height: 28px;
-}
-
-.test_box {
-  text-align: left;
-}
-
-.test_icon {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 30px;
-}
-
-.test_icon i {
-  border: #f4c430 solid 9px;
-  border-radius: 40px;
-}
-
-.test_box h4 {
-  font-size: 17px;
-  color: #030305;
-  line-height: 28px;
-  display: block;
-  font-weight: 500;
-  text-align: left;
-  padding: 0px 0px 0px 13px;
-}
-
-.yellow {
-  color: #f4c430;
-}
-
-.test_box p {
-  font-size: 16px;
-  line-height: 28px;
-  color: #222221;
-  text-align: left;
-  padding: 35px 30px;
-  border-radius: 5px;
-  font-weight: 400;
-}
-
-/** end testimonial section **/
 
 /** visual section **/
 
@@ -1053,6 +964,14 @@ ul.link_menu li a:hover {
 }
 
 /* Glassmorphism */
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
 
 .glass_nav {
   background: rgba(255, 255, 255, 0.9);
@@ -1068,31 +987,8 @@ ul.link_menu li a:hover {
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px 10px 10px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.glass {
-  background: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-.glass-base {
-  background: rgba(255, 255, 255, 0.5);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.glass-card {
-  background: rgba(132, 132, 132, 0.5);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 }
 
 .glass-con {
@@ -1100,15 +996,6 @@ ul.link_menu li a:hover {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-}
-
-.glass_slide {
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #myBtn {
@@ -1120,7 +1007,7 @@ ul.link_menu li a:hover {
   border: none;
   outline: none;
   color: #f4c430;
-  cursor: pointer;
+  cursor: url("../images/color-tree.svg") 15 15, pointer;
   padding: 1%;
   border-radius: 50px;
   font-size: 15px;
