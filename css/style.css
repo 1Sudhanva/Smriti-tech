@@ -224,7 +224,7 @@ button {
   border: 0;
   margin: 0;
   padding: 0;
-  cursor: url("../images/color-tree.svg") 15 15, pointer;
+  cursor: pointer;
 }
 
 .full {
@@ -597,7 +597,7 @@ button {
 }
 
 #serv_hover:hover.services_box {
-  cursor: url("../images/color-tree.svg") 15 15, pointer;
+  cursor: pointer;
   border: #f4c430 solid 3px;
   transition: ease-in all 0.1s;
 }
@@ -646,7 +646,6 @@ button {
   position: absolute;
   bottom: 0;
   content: "";
-  /* background: url(../images/blue-tex.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -1012,7 +1011,7 @@ ul.link_menu li a:hover {
   border: none;
   outline: none;
   color: #f4c430;
-  cursor: url("../images/color-tree.svg") 15 15, pointer;
+  cursor: pointer;
   padding: 1%;
   border-radius: 50px;
   font-size: 15px;
@@ -1242,7 +1241,7 @@ ul.link_menu li a:hover {
 /* Services Cards */
 
 .serv {
-  background-color: rgb(123, 255, 123);
+  background-color: rgb(242, 255, 242);
   padding-top: 10%;
   padding-bottom: 2%;
   text-align: center;
