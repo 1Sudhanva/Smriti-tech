@@ -819,14 +819,14 @@ button {
 /** footer **/
 
 .footer {
-  cursor: default !important;
+  cursor: url("../images/color-tree.svg"), auto;
   background-color: rgb(6, 6, 11);
   padding-top: 2%;
   text-align: center;
 }
-
-.footer .container {
-  cursor: default !important;
+.footer .cont,
+.footer .logo {
+  cursor: url("../images/tree.svg"), auto;
 }
 
 .footer .titlepage {
@@ -1250,15 +1250,24 @@ ul.link_menu li a:hover {
 
 .serv_item {
   color: #000;
-  padding: 2%;
-  margin: 3%;
+  width: 100%;
+  padding: ;
   transition: all 100ms ease;
-}
-.serv_item:hover {
-  border: 5px solid rgb(255, 140, 140);
+  border-radius: 20px;
 }
 .serv_item h3 {
   color: #000;
+}
+
+.serv_item img:hover {
+  width: 22%;
+  height: 22%;
+}
+.serv_item img {
+  width: 20%;
+  height: 20%;
+  padding-left: 5%;
+  transition: all 0.5s ease;
 }
 
 /* end Services Cards */
