@@ -1251,7 +1251,6 @@ ul.link_menu li a:hover {
 .serv_item {
   color: #000;
   width: 100%;
-  padding: ;
   transition: all 100ms ease;
   border-radius: 20px;
 }
@@ -1271,3 +1270,9 @@ ul.link_menu li a:hover {
 }
 
 /* end Services Cards */
+
+/* WorkFlow */
+.work {
+  background-color: #000;
+}
+/* end WorkFlow */
