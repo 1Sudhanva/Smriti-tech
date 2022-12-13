@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-  <!-- <html lang="en" oncontextmenu="return false"> -->
+<html lang="en" oncontextmenu="return false">
   <head>
     <!-- basic -->
     <meta charset="utf-8" />
@@ -50,8 +49,7 @@
                 <div class="center-desk">
                   <div class="logo">
                     <a href="index.html">
-                      <img src="images/tree.png" alt="#" />
-                      SMRiTi TECH
+                      <img src="images/logo w sub.png" alt="#" />
                     </a>
                   </div>
                 </div>
@@ -102,9 +100,6 @@
                       <a class="nav-link" href="#about">About</a>
                     </li>
                   </ul>
-                  <button class="btn btn-warning">
-                    <a class="" href="html/contact.html">Get in Touch</a>
-                  </button>
                 </div>
               </nav>
             </div>
@@ -113,6 +108,29 @@
       </div>
     </header>
     <!-- end header inner -->
+    <!-- Contact us -->
+    <div id="abc">
+      <!-- Popup Div Starts Here -->
+      <div id="popupContact">
+        <!-- Contact Us Form -->
+        <form action="#" id="form" method="post" name="form">
+          <img
+            id="close"
+            src="../images/icons/close-btn.png"
+            onclick="div_hide()" />
+          <h3>Contact Us</h3>
+          <hr />
+          <input id="name" name="name" placeholder="Name" type="text" />
+          <input id="email" name="email" placeholder="Email" type="text" />
+          <textarea id="msg" name="message" placeholder="Message"></textarea>
+          <a href="javascript:%20check_empty()" id="submit">Send</a>
+        </form>
+      </div>
+      <!-- Popup Div Ends Here -->
+    </div>
+    <button class="getBtn btn btn-warning" id="popup" onclick="div_show()">
+      Get in touch
+    </button>
     <div class="social">
       <ul class="social_icon">
         <li>
@@ -164,7 +182,7 @@
                         <img src="images/iot-beni.png" alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -195,7 +213,7 @@
                         <img src="images/es-bene.png" alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -231,7 +249,7 @@
                           alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -261,7 +279,7 @@
                         <img src="images/ml bene.png" alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -293,7 +311,7 @@
                         <img src="images/cv-beni.png" alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -325,7 +343,7 @@
                         <img src="images/web-beni.png" alt="#" />
                         <h3>Stop Sliding</h3>
                         <i
-                          title="Stop sliding"
+                          title="Stopped"
                           class="fa fa-stop-circle"
                           aria-hidden="true"></i>
                       </figure>
@@ -673,13 +691,17 @@
                 alt=""
                 srcset="" />
               <img class="es2" src="images/icons/cpu.png" alt="" srcset="" />
+              <img class="ml3" src="images/icons/rpa.png" alt="" srcset="" />
               <img
-                class="ml3"
+                class="cv4"
                 src="images/icons/machine-learning.png"
                 alt=""
                 srcset="" />
-              <img class="cv4" src="images/icons/vision.png" alt="" srcset="" />
-              <img class="rpa5" src="images/icons/rpa.png" alt="" srcset="" />
+              <img
+                class="rpa5"
+                src="images/icons/vision.png"
+                alt=""
+                srcset="" />
               <img class="wd6" src="images/icons/coding.png" alt="" srcset="" />
             </div>
           </div>
@@ -688,14 +710,24 @@
     </div>
     <!-- end visuals -->
 
-    <!-- WorkFlow -->
-    <div class="work">
+    <!-- Work process -->
+    <!-- <div class="w_process">
       <div class="container">
         <div class="row">
           <div class="col"></div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <!-- end WorkFlow -->
+
+    <!-- WorkFlow -->
+    <!-- <div class="w_flow">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+        </div>
+      </div>
+    </div> -->
     <!-- end WorkFlow -->
 
     <!--  footer -->
@@ -706,8 +738,7 @@
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div class="logo">
                 <a href="index.html">
-                  <img src="images/tree1.png" alt="#" />
-                  SMRiTi TECH
+                  <img src="/images/logo w sub.png" alt="#" />
                 </a>
                 <p>
                   SK13, New Town, Bhadravathi, Shivamogga, Karnataka, India -
@@ -725,8 +756,8 @@
                 </p>
                 <p>
                   Email :
-                  <a href="mailto:smriti.tech.mail@gmail.com"
-                    >smriti.tech.mail@gmail.com</a
+                  <a href="mailto:contact@smrititech.in"
+                    >contact@smrititech.in</a
                   >
                 </p>
               </div>
@@ -750,6 +781,31 @@
       </div>
     </footer>
     <!-- end footer -->
+
+    <!-- script -->
+    <script>
+      function check_empty() {
+        if (
+          document.getElementById("name").value == "" ||
+          document.getElementById("email").value == "" ||
+          document.getElementById("msg").value == ""
+        ) {
+          alert("Fill All Fields !");
+        } else {
+          document.getElementById("form").submit();
+          alert("Form Submitted Successfully...");
+        }
+      }
+      //Function To Display Popup
+      function div_show() {
+        document.getElementById("abc").style.display = "block";
+      }
+      //Function to Hide Popup
+      function div_hide() {
+        document.getElementById("abc").style.display = "none";
+      }
+    </script>
+    <!-- end Contact us -->
 
     <script>
       var url =
